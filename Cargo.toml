@@ -1,0 +1,16 @@
+[package]
+name = "{{crate_name}}"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+authors = ["{{authors}}"]
+description = ""
+categories = ["command-line-interface", "command-line-utilities", "development-tools"]
+keywords = ["shrs", "shell", "posix", "unix"]
+readme = "README.md"
+repository = ""
+
+[features]
+
+[dependencies]
+shrs = { git = "https://github.com/MrPicklePinosaur/shrs" }
